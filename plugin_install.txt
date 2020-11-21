@@ -1,0 +1,45 @@
+## Free
+### Instruments
+LABS: https://bit.ly/LABSDownload
+Helm: https://bit.ly/hemldownload
+Vital: https://vital.audio/
+Addictive Keys: https://bit.ly/AddictiveDemo
+Paulxstretch: https://xenakios.wordpress.com/paulxstretch-plugin/
+Surge: https://surge-synthesizer.github.io/
+Surge install path: https://github.com/surge-synthesizer/surge/issues/2403
+Pendulate: https://www.eventideaudio.com/promo/pendulate
+OB-XD 2.1: https://www.discodsp.com/obxd/
+Tyrell: https://www.amazona.de/freeware-synthesizer-tyrell-n6-plugin-vst-au-win-mac/
+Voltage: https://store.cherryaudio.com/
+
+### FX
+OrilRiver (reverb): https://www.kvraudio.com/product/orilriver-by-denis-tihanov
+Coral, Coffee, Titanium (eq): https://bit.ly/Aquariusvst
+Nova (dyn eq): https://bit.ly/Novavst
+Youlean Loudness Meter: http://bit.ly/youlean
+TDR Kotelnikov: https://bit.ly/Kotelnikov
+TDR Moltok: https://www.tokyodawn.net/tdr-molotok/
+TDR SlickEQ: https://www.tokyodawn.net/tdr-vos-slickeq/
+MFreeFXBundle: https://www.meldaproduction.com/MFreeFxBundle
+Voxengo SPAN: https://www.voxengo.com/product/span/
+Ozone Imager 2: https://www.izotope.com/en/products/ozone-imager.html
+Couture: https://www.auburnsounds.com/products/Couture.html
+Graillon (pitch shift): https://www.auburnsounds.com/products/Graillon.html
+Panagement: https://www.auburnsounds.com/products/Panagement.html
+Bitter Sweet: https://www.flux.audio/project/bittersweet-v3/
+s(M)exoscope: http://bram.smartelectronix.com/plugins.php?id=4
+10Q: http://dazdisley.co.uk/#!/page:./whiteLABEL/
+Cloud Seed: https://github.com/ValdemarOrn/CloudSeed
+Valhalla Supermassive: https://valhalladsp.com/shop/reverb/valhalla-supermassive/
+Free-Clip: https://www.vennaudio.com/free-clip/
+IVGI, DC1A, MJUC jr. : https://klanghelm.com/contents/main.html
+Convology XT: https://impulserecord.com/convology-xt/
+Signalizer: https://www.jthorborg.com/index.html?ipage=signalizer
+
+## Downloaded/Paid
+Sausage Fattener
+Komplete 10
+iZotope Ozone 7
+Camel Crusher
+Camel Phat 3
+
