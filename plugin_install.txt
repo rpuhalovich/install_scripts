@@ -35,6 +35,7 @@ Free-Clip: https://www.vennaudio.com/free-clip/
 IVGI, DC1A, MJUC jr. : https://klanghelm.com/contents/main.html
 Convology XT: https://impulserecord.com/convology-xt/
 Signalizer: https://www.jthorborg.com/index.html?ipage=signalizer
+Wolf Shaper: https://github.com/pdesaulniers/wolf-shaper
 
 ## Downloaded/Paid
 Sausage Fattener
