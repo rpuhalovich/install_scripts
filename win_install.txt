@@ -9,3 +9,6 @@ https://rammichael.com/7-taskbar-tweaker
 
 // install sylphyhornex
 https://github.com/ViRb3/SylphyHornEx
+
+// install MoveToDesktop
+https://github.com/Eun/MoveToDesktop
