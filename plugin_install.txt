@@ -37,6 +37,7 @@ Convology XT: https://impulserecord.com/convology-xt/
 Signalizer: https://www.jthorborg.com/index.html?ipage=signalizer
 Wolf Shaper: https://github.com/pdesaulniers/wolf-shaper
 Fresh Air: https://slatedigital.com/fresh-air/?utm_source=youtube&utm_medium=post&utm_campaign=inthemix
+Dragonfly Reverb: https://github.com/michaelwillis/dragonfly-reverb/releases/tag/3.2.3
 
 ## Downloaded/Paid
 Sausage Fattener
