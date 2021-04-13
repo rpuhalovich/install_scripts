@@ -1,7 +1,8 @@
 sudo apt update -y && sudo apt upgrade -y
-sudo apt install -y gdebi-core gnome-sushi
+sudo apt install -y gdebi-core gnome-sushi make nautilus-admin
+nautilus -q
 
-sudo snap install discord mailspring vlc spotify bitwarden code brave
+sudo snap install discord mailspring vlc spotify bitwarden code brave zoom-client gimp
 sudo snap install intellij-idea-community --classic --edge
 sudo snap install cmake --classic
 
@@ -30,3 +31,6 @@ PANDOC_VER=2.13
 wget https://github.com/jgm/pandoc/releases/download/${PANDOC_VER}/pandoc-${PANDOC_VER}-1-amd64.deb
 dpkg -i pandoc-${PANDOC_VER}-1-amd64.deb
 rm pandoc-${PANDOC_VER}-1-amd64.deb
+
+echo ""
+echo "--- Install complete! ---"
