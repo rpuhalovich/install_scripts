@@ -2,9 +2,9 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y gdebi-core gnome-sushi make nautilus-admin
 nautilus -q
 
-sudo snap install discord mailspring vlc spotify bitwarden code brave zoom-client gimp libreoffice
+sudo snap install discord mailspring vlc spotify bitwarden brave zoom-client gimp libreoffice
 sudo snap install intellij-idea-community --classic --edge
-sudo snap install cmake --classic
+sudo snap install cmake code --classic
 
 # github desktop 
 sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.6.3-linux1/GitHubDesktop-linux-2.6.3-linux1.deb
