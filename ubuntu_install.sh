@@ -2,15 +2,9 @@
 sudo apt update -y && sudo apt upgrade -y
 
 sudo apt install -y gnome-sushi
-sudo snap install discord mailspring vlc spotify bitwarden signal gdebi-core cmake
+sudo snap install discord mailspring vlc spotify bitwarden signal gdebi-core code brave
 sudo snap install intellij-idea-community --classic --edge
-
-# brave
-sudo apt install apt-transport-https curl
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update -y
-sudo apt install -y brave-browser
+sudo snap install cmake --classic
 
 # github desktop 
 sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.6.3-linux1/GitHubDesktop-linux-2.6.3-linux1.deb
