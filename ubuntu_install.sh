@@ -2,7 +2,7 @@
 sudo apt update -y && sudo apt upgrade -y
 
 sudo apt install -y gnome-sushi
-sudo snap install discord mailspring vlc spotify bitwarden signal gdebi-core 
+sudo snap install discord mailspring vlc spotify bitwarden signal gdebi-core cmake
 sudo snap install intellij-idea-community --classic --edge
 
 # brave
@@ -23,10 +23,10 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] 
 sudo apt update && sudo apt install signal-desktop
 
 # cmake 
-CMAKE_VER=3.20.1
-wget https://github.com/Kitware/CMake/releases/download/v${CMAKE_VER}/cmake-${CMAKE_VER}-linux-x86_64.sh
-sudo sh cmake-${CMAKE_VER}-linux-x86_64.sh --prefix=/usr/local --exclude-subdir
-rm cmake-${CMAKE_VER}-linux-x86_64.sh
+# CMAKE_VER=3.20.1
+# wget https://github.com/Kitware/CMake/releases/download/v${CMAKE_VER}/cmake-${CMAKE_VER}-linux-x86_64.sh
+# sudo sh cmake-${CMAKE_VER}-linux-x86_64.sh --prefix=/usr/local --exclude-subdir
+# rm cmake-${CMAKE_VER}-linux-x86_64.sh
 
 # albert 
 curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
