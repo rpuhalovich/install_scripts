@@ -1,7 +1,7 @@
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install -y gdebi-core gnome-sushi
 
-sudo snap install discord mailspring vlc spotify bitwarden code brave
+sudo snap install discord mailspring vlc spotify bitwarden code brave libreoffice
 sudo snap install intellij-idea-community --classic --edge
 sudo snap install cmake --classic
 
