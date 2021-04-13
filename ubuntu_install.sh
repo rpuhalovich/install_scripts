@@ -1,8 +1,7 @@
-
 sudo apt update -y && sudo apt upgrade -y
+sudo apt install -y gdebi-core gnome-sushi
 
-sudo apt install -y gnome-sushi
-sudo snap install discord mailspring vlc spotify bitwarden signal gdebi-core code brave
+sudo snap install discord mailspring vlc spotify bitwarden code brave
 sudo snap install intellij-idea-community --classic --edge
 sudo snap install cmake --classic
 
@@ -15,12 +14,6 @@ wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signa
 sudo mv signal-desktop-keyring.gpg /usr/share/keyrings/
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
 sudo apt update && sudo apt install signal-desktop
-
-# cmake 
-# CMAKE_VER=3.20.1
-# wget https://github.com/Kitware/CMake/releases/download/v${CMAKE_VER}/cmake-${CMAKE_VER}-linux-x86_64.sh
-# sudo sh cmake-${CMAKE_VER}-linux-x86_64.sh --prefix=/usr/local --exclude-subdir
-# rm cmake-${CMAKE_VER}-linux-x86_64.sh
 
 # albert 
 curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
