@@ -15,8 +15,8 @@ PgDn::ExitApp
 ;^F24::Send #{Right}
 ;^F23::Send #{Left}
 
-!w::!F4 ; closes active window
-!x::WinMinimize, A ; minimises active window
+;!w::!F4 ; closes active window
+;!x::WinMinimize, A ; minimises active window
 
 #Escape::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)
 
@@ -32,15 +32,15 @@ F24::activate_explorer()
 
 ; middle click to open in new explorer window
 MouseIsOver(WinTitle) {
-    MouseGetPos,,, Win
-    return WinExist(WinTitle . " ahk_id " . Win)
+	MouseGetPos,,, Win
+	return WinExist(WinTitle . " ahk_id " . Win)
 }
 #If MouseIsOver("ahk_class CabinetWClass")
 MButton::
-    Send {LButton}{AppsKey}e
+	Send {LButton}{AppsKey}e
 	Sleep 2000
 	Send #{right}
-    return
+	return
 
 ; Ableton Live------------------------------------------------------------------
 #IfWinActive, ahk_class Ableton Live Window Class
