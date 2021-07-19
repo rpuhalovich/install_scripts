@@ -1,0 +1,9 @@
+[submodule "mailspring_themes/mailspring-dracula"]
+	path = mailspring_themes/mailspring-dracula
+	url = https://github.com/pierrenel/mailspring-dracula.git
+[submodule "mailspring_themes/predawn"]
+	path = mailspring_themes/predawn
+	url = https://github.com/asparc/predawn.git
+[submodule "mailspring_themes/Fantome-new-theme-for-mailspring"]
+	path = mailspring_themes/Fantome-new-theme-for-mailspring
+	url = https://github.com/hanny00/Fantome-new-theme-for-mailspring.git
