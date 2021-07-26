@@ -8,4 +8,4 @@ xcode-select --install
 brew install pandoc &&\
 brew cask install dashlane visual-studio-code brave-browser discord typora \
 krita gimp google-photos-backup-and-sync spotify transmission zoomus zotero \
-hiddenbar rectangle blender signal
+hiddenbar rectangle blender signal cloc
