@@ -8,6 +8,10 @@ Follow this: https://www.youtube.com/watch?v=tk6WLWDYlyU
 
 Note: Press Shift + / to bring up actions.
 
+### Shortcuts
+
+Insert or extend MIDI ... = alt + a
+
 ### Mouse
 
 scroll vertically = Mousewheel
@@ -25,3 +29,10 @@ Horizontal zoom center = Mosue Cursor
 ### Trackpad
 
 scroll horizontally reversed = HorizWheel
+
+### MIDI
+
+Move notes up one semitone = Up
+Move notes up one octave = Ctrl + Up
+Move notes down one semitone = Down
+Move notes down one octave = Ctrl + Down
