@@ -12,6 +12,10 @@ Note: Press Shift + / to bring up actions.
 
 Uncheck everything.
 
+### Muting Items
+
+Appearance > Media > Media Item Buttons - Not Muted
+
 ### Shortcuts
 
 Insert or extend MIDI ... = alt + a
