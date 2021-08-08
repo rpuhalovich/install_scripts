@@ -8,6 +8,10 @@ Follow this: https://www.youtube.com/watch?v=tk6WLWDYlyU
 
 Note: Press Shift + / to bring up actions.
 
+### Seeking
+
+Uncheck everything.
+
 ### Shortcuts
 
 Insert or extend MIDI ... = alt + a
