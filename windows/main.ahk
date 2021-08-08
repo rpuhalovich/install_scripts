@@ -85,7 +85,7 @@ F1::
 ;goes to homepage
 F2::!Home
 
-; Brave-----------------------------------------------------------------
+; Brave-------------------------------------------------------------------------
 #IfWinActive, ahk_exe brave.exe
 ;close tabs to the right
 F1::
@@ -108,3 +108,9 @@ F1::
 	Send i
 	return
 }
+
+; Reaper ------------------------------------------------------------------------
+#IfWinActive, ahk_exe reaper.exe
+
+;!x::^!x
+
