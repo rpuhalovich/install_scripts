@@ -55,3 +55,7 @@ Edit: Delete events = Delete, F1
 ### Panning
 
 Editing Behavior > Arrange view - middle drag > Default action - Hand scroll
+
+### Selection
+
+Actions > Set selection to Items = F2
