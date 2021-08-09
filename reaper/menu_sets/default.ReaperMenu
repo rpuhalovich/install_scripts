@@ -1,0 +1,29 @@
+[Main toolbar]
+icon_9=text
+icon_10=text
+icon_11=text
+icon_12=text
+icon_13=text
+icon_14=text
+icon_15=text
+icon_16=text
+icon_17=text
+item_0=40021 Project settings...
+item_1=40364 Enable metronome
+item_2=40041 Enable auto-crossfade
+item_3=1156 Enable grouping
+item_4=1155 Enable ripple editing
+item_5=40070 Move envelope points with media items
+item_6=40145 Show arrange view grid
+item_7=1157 Enable snapping
+item_8=1135 Enable locking
+item_9=40781 1
+item_10=40780 1/2
+item_11=40778 1/8
+item_12=42000 1/3
+item_13=40779 1/4
+item_14=40778 1/8
+item_15=40776 1/16
+item_16=40775 1/32
+item_17=40774 1/64
+

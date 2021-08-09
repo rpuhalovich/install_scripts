@@ -4,6 +4,10 @@
 
 Follow this: https://www.youtube.com/watch?v=tk6WLWDYlyU
 
+## Menu Set
+
+Import menu set at reaper/menu_sets/default.ReaperMenu
+
 ## Actions and Preferences
 
 Note: Press Shift + / to bring up actions.
@@ -19,6 +23,7 @@ Appearance > Media > Media Item Buttons - Not Muted
 ### Shortcuts
 
 Insert or extend MIDI ... = alt + a
+Remove items/tracks/envelope points ... = Delete, F1
 
 ### Mouse
 
@@ -44,6 +49,8 @@ Move notes up one semitone = Up
 Move notes up one octave = Ctrl + Up
 Move notes down one semitone = Down
 Move notes down one octave = Ctrl + Down
+
+Edit: Delete events = Delete, F1
 
 ### Panning
 
