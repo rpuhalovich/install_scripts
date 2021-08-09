@@ -32,7 +32,7 @@ zoom horizontally = ctrl + Mousewheel
 
 Then: Prefs > Editing Behaviour:
 Vertical zoom center = Track Under Mouse Cursor
-Horizontal zoom center = Mosue Cursor
+Horizontal zoom center = Mouse Cursor
 
 ### Trackpad
 
@@ -44,3 +44,7 @@ Move notes up one semitone = Up
 Move notes up one octave = Ctrl + Up
 Move notes down one semitone = Down
 Move notes down one octave = Ctrl + Down
+
+### Panning
+
+Editing Behavior > Arrange view - middle drag > Default action - Hand scroll
