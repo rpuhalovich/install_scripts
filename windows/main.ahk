@@ -110,7 +110,14 @@ F1::
 }
 
 ; Reaper ------------------------------------------------------------------------
-#IfWinActive, ahk_exe reaper.exe
+#IfWinActive, ahk_exe firefox.exe
 
-;!x::^!x
+F1::
+{
+	Send m
+	Send m
+	Send {Enter}
+	Send i
+	return
+}
 
