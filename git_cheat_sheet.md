@@ -39,3 +39,15 @@ Then to retrieve specific stash.
 ### Create Alias.
 
 `git config --global alias.<name of alias> "<commands to alias>"`
+
+Favourites:
+
+`git config --global alias.a "add --all"`
+
+`git config --global alias.c "commit -m"`
+
+`git config --global alias.r "rebase --interactive"`
+
+### Go back to previous branch.
+
+`git checkout -`
