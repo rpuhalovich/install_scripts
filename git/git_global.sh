@@ -1,0 +1,5 @@
+git config --global alias.a "add --all"
+git config --global alias.c "commit -m"
+git config --global alias.r "rebase --interactive"
+git config --global alias.subup "submodule --init --recursive"
+git config --global alias.clonerec "clone --recursive"
