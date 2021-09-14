@@ -2,6 +2,7 @@ call git config --global user.email "reanpuhalovich@gmail.com"
 call git config --global user.name "rpuhalovich"
 
 call git config --global alias.s "status"
+call git config --global alias.b "branch"
 call git config --global alias.c "!sh -c 'git add -A && git commit -m \"$1\"' -"
 call git config --global alias.ch "checkout"
 call git config --global alias.m "merge"
