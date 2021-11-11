@@ -1,6 +1,8 @@
 call git config --global user.email "reanpuhalovich@gmail.com"
 call git config --global user.name "rpuhalovich"
 
+call git config --global init.defaultBranch main
+
 call git config --global alias.s "status"
 call git config --global alias.b "branch"
 call git config --global alias.a "add ."
