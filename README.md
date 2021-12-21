@@ -1,7 +1,11 @@
-## install_scripts
+# install_scripts
 
-A bunch of install scripts that I use to set up new systems easily.
+Scripts and settings to set up a new system.
+
+## Usage
+
+Download `macos/mac_install.sh` or `windows/win_install.bat` to the desired directory and run.
 
 ## TODO
 
-- Set up rsync for plugin presets.
+- [ ] Set up rsync for plugin presets.
