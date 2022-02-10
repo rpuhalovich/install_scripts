@@ -1,5 +1,5 @@
 git config --global user.email "reanpuhalovich@gmail.com"
-git config --global user.name "rpuhalovich"
+git config --global user.name "Ryan Puhalovich"
 
 git config --global init.defaultBranch main
 
