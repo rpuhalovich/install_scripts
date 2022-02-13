@@ -1,6 +1,12 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1')) '
+## 1. Chocolatey and git
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));
 choco install -y git
 
-git clone --recursive https://github.com/rpuhalovich/install_scripts.git_global '
-install_scripts\git\git_global.bat '
-choco install -y 7zip vlc foxitreader vscode steam discord spotify windirstat transmission zoom pandoc marktext autohotkey bitwarden astyle signal mailspring
+## 2. Restart and everything else
+git clone --recursive https://github.com/rpuhalovich/install_scripts.git_global;
+install_scripts\git\git_global.bat;
+choco install -y firefox 7zip vlc foxitreader vscode steam discord spotify;
+choco install -y windirstat transmission zoom pandoc marktext;
+choco install -y autohotkey bitwarden astyle signal mailspring cloc
