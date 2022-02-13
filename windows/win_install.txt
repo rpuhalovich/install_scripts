@@ -5,7 +5,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 choco install -y git
 
 ## 2. Restart and everything else
-git clone --recursive https://github.com/rpuhalovich/install_scripts.git_global;
+git clone --recursive https://github.com/rpuhalovich/install_scripts;
 install_scripts\git\git_global.bat;
 choco install -y firefox 7zip vlc foxitreader vscode steam discord spotify;
 choco install -y windirstat transmission zoom pandoc marktext;
