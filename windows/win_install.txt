@@ -9,4 +9,5 @@ git clone --recursive https://github.com/rpuhalovich/install_scripts;
 install_scripts\git\git_global.bat;
 choco install -y firefox 7zip vlc foxitreader vscode steam discord spotify;
 choco install -y windirstat transmission zoom pandoc marktext;
-choco install -y autohotkey bitwarden astyle signal mailspring cloc
+choco install -y autohotkey bitwarden astyle signal mailspring cloc nodejs;
+npm install --global git-open
