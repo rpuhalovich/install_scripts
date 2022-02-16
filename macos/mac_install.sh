@@ -13,4 +13,4 @@ git clone --recursive https://github.com/rpuhalovich/install_scripts.git
 
 brew install pandoc visual-studio-code firefox discord
 brew install gimp spotify transmission zoomus notion
-brew install hiddenbar rectangle signal cloc keka
+brew install hiddenbar rectangle signal cloc keka micro
