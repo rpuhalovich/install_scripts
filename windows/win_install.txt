@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));
 choco install -y git nodejs
 
-## 2. Restart and everything else
+## 2. Restart and everything else - MUST BE IN DOCUMENTS FOLDER
 git clone --recursive https://github.com/rpuhalovich/install_scripts;
 install_scripts\git\git_global.bat;
 choco install -y googlechrome 7zip vlc foxitreader vscode steam discord spotify;
