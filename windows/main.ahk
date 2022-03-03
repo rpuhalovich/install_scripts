@@ -9,7 +9,7 @@ SetTitleMatchMode, 2
 
 ; ### Windows ###
 
-#Escape::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)
+#Escape::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 1, "int", 0)
 
 ; ### Firefox ###
 #IfWinActive, ahk_exe firefox.exe
