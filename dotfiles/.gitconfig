@@ -1,21 +1,23 @@
 [user]
-    email = ryan.puhalovich@dxc.com
-    name = Ryan Puhalovich
+	email = ryan.puhalovich@dxc.com
+	name = Ryan Puhalovich
 [init]
-    defaultBranch = main
+	defaultBranch = main
 [core]
-    editor = vim
+	editor = vim
 [diff]
-    tool = vimdiff
+	tool = vimdiff
+[advice]
+	detachedHead = false
 [alias]
-    a = add .
-    b = branch
-    bl = blame
-    c = commit -am
-    ch = checkout
-    rclone = clone --recursive
-    l = log --graph --oneline --decorate
-    m = merge
-    r = rebase
-    s = status
-    subup = submodule update --init --recursive
+	a = add .
+	b = branch
+	bl = blame
+	c = commit -am
+	ch = checkout
+	rclone = clone --recursive
+	l = log --graph --oneline --decorate
+	m = merge
+	r = rebase
+	s = status
+	subup = submodule update --init --recursive
