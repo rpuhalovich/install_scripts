@@ -9,13 +9,15 @@ SetTitleMatchMode, 2
 
 ; ### Windows ###
 
-#Escape::DllCall("PowrProf\SetSuspendState", "int", 0, "int", 1, "int", 0)
-
 Capslock::Esc
 
 ^Up::#Up
 
-#Enter::Run "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
+!Enter::Run "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
+
+!q::!F4
+
+!m::WinMinimize
 
 ; ### Firefox ###
 #IfWinActive, ahk_exe firefox.exe
