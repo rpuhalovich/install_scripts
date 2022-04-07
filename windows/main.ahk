@@ -15,9 +15,14 @@ Capslock::Esc
 
 !Enter::Run "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe"
 
-!q::!F4
+#q::!F4
 
 !m::WinMinimize
+
+LCtrl::Alt
+LAlt::Ctrl
+
+LWin & 	Tab::AltTab
 
 ; ### Firefox ###
 #IfWinActive, ahk_exe firefox.exe
