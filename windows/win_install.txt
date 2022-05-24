@@ -1,14 +1,14 @@
-## 1. Chocolatey and git
+# 1. Chocolatey and git
 Set-ExecutionPolicy Bypass -Scope Process -Force;
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));
-choco install -y git nodejs
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'));choco install -y git node
 
-## 2. Restart and everything else - MUST BE IN DOCUMENTS FOLDER
+# 2. Restart terminal and everything else
 git clone --recursive https://github.com/rpuhalovich/install_scripts;
-install_scripts\git\git_global.bat;
-choco install -y googlechrome 7zip vlc foxitreader vscode steam discord spotify;
-choco install -y firefox windirstat transmission zoom pandoc marktext notion;
-choco install -y autohotkey bitwarden astyle signal mailspring cloc micro;
-choco install -y microsoft-teams;
-npm install --global git-open
+choco install install_scripts\windows\packages.config;
+npm install --global git-open;
+winget install nvm sharpkeys;
+winget install Microsoft.PowerToys --source winget
+
+# 3. Debloat script
+iwr -useb https://git.io/debloat|iex

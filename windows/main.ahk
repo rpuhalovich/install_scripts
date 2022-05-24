@@ -9,6 +9,8 @@
 
 SetTitleMatchMode, 2
 
+F12::Reload
+
 ; ### Windows ###
 
 LWin & x::
@@ -19,3 +21,4 @@ LWin & x::
 }
 
 LWin & Tab::AltTab
+LWin & q::PostMessage, 0x0112, 0xF060,,, WinTitle, WinText
