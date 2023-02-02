@@ -21,4 +21,16 @@ LWin & x::
 }
 
 LWin & Tab::AltTab
-LWin & q::PostMessage, 0x0112, 0xF060,,, WinTitle, WinText
+
++CapsLock::
+{
+    Input, SingleKey, V L1
+    if GetKeyState("CapsLock", "T") = 1
+    {
+        SetCapsLockState, off
+    }
+    else if GetKeyState("CapsLock", "F") = 0
+    {
+        SetCapsLockState, on
+    }
+}

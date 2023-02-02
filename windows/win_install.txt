@@ -5,8 +5,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 
 # 2. Restart terminal and everything else
 git clone --recursive https://github.com/rpuhalovich/install_scripts;
-choco install install_scripts\windows\packages.config;
-npm install --global git-open;
+choco install -y --force install_scripts\windows\packages.config;npm install --global git-open
 winget install nvm sharpkeys;
 winget install Microsoft.PowerToys --source winget
 
